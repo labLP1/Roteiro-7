@@ -13,7 +13,3 @@ double TrabalhadorPorHora::calcularPagamento( int Horas ){
             return (salHora*Horas);
        }
 }
-
-TrabalhadorPorHora::TrabalhadorPorHora(string nome, double sal){
-    Trabalhador( nome, sal );
-}

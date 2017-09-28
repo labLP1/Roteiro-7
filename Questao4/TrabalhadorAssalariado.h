@@ -6,7 +6,6 @@
 class TrabalhadorAssalariado: public Trabalhador{
    public:
         double calcularPagamento(int Horas);
-        TrabalhadorAssalariado(const string &nome, double sal);
 };
 
 #endif
