@@ -14,10 +14,7 @@ class Trabalhador{
         void setSalarioMensal( double salario );
         string getNome();
         double getSalarioMensal();
-        double calcularPagamento( int Horas );
-        
-        Trabalhador( string nome, double salario );
-        
+        double calcularPagamento( int Horas );       
     
 };
 
