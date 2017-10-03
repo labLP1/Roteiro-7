@@ -2,6 +2,7 @@
 #define MEDICO_H
 
 #include <string>
+#include <iostream>
 using namespace std;
 
 class Medico{
@@ -16,13 +17,17 @@ class Medico{
         void setAltura( double altura );
         void setPeso( double peso );
         void setCurso( string curso );
-
+		
+		void especializacao();
+		void consulta();
+		void cirurgia();
         string getCurso();
         string getNome();
-        double getNome();
+        double getAltura();
         double getPeso();
 
  
 };
 
 #endif
+

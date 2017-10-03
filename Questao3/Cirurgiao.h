@@ -2,16 +2,18 @@
 #define CIRURGIAO_H
 
 #include <string>
+#include <iostream>
 using namespace std;
 
-#include "Cirurgiao.h"
+#include "Medico.h"
 
 class Cirurgiao: public Medico{
-    private:
-
     public:
-        
+        void cirurgia();
+		void consulta();
+		void especializacao();
 };
 
 #endif
+
 

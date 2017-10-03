@@ -11,3 +11,17 @@
     string Medico::getCurso(){ return curso; }
     double Medico::getAltura(){ return altura; }
     double Medico::getPeso(){ return peso; }
+	
+
+	void Medico::especializacao(){
+		std::cout << "" << std::endl;
+	}
+	
+	void Medico::consulta(){
+		std::cout << "" << std::endl;
+	}
+	
+	void Medico::cirurgia(){
+		std::cout << "" << std::endl;
+	}
+
